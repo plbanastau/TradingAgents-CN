@@ -10,6 +10,8 @@
 
 TradingAgents-CN 是 [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN) 的 Fork 版本，专注于中国 A 股市场的多智能体协作交易分析框架。系统通过多个专业 AI 智能体协同工作，对股票进行深度分析并生成交易建议。
 
+> 📝 **个人备注**：本 Fork 主要用于学习和研究多智能体框架在 A 股市场的应用，重点关注 DeepSeek 模型的集成效果。
+
 ## 核心特性
 
 - 🤖 **多智能体协作**：分析师、研究员、风控、交易员等多角色智能体协同决策
@@ -69,6 +71,8 @@ docker-compose up -d
 | `FINNHUB_API_KEY` | Finnhub 金融数据 API | 可选 |
 
 > ⚠️ 至少需要配置一个大模型 API Key 才能正常运行
+
+> 💡 **个人推荐**：优先使用 DeepSeek，性价比较高，对中文金融文本的理解效果也不错。
 
 ## 项目结构
 
