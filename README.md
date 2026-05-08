@@ -110,6 +110,8 @@ print(result["recommendation"])  # 买入/持有/卖出
 print(result["analysis"])        # 详细分析报告
 ```
 
+> 💡 **个人测试记录**：用 `000858`（五粮液）和 `300750`（宁德时代）跑过几次，DeepSeek 的分析逻辑比较清晰，但新闻抓取偶尔会有延迟，建议分析前先确认数据源连通性。
+
 ## 贡献指南
 
 欢迎提交 Issue 和 Pull Request！请先阅读 [贡献指南](CONTRIBUTING.md)。
