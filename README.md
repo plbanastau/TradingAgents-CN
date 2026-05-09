@@ -112,6 +112,15 @@ print(result["analysis"])        # 详细分析报告
 
 > 💡 **个人测试记录**：用 `000858`（五粮液）和 `300750`（宁德时代）跑过几次，DeepSeek 的分析逻辑比较清晰，但新闻抓取偶尔会有延迟，建议分析前先确认数据源连通性。另外测试时建议将 `date` 参数设置为**前一个交易日**，避免当天数据不完整导致分析结果偏差。
 
+### 常用测试股票代码参考
+
+| 股票代码 | 名称 | 备注 |
+|----------|------|------|
+| `600036` | 招商银行 | 数据质量好，适合初次测试 |
+| `000858` | 五粮液 | 消费板块代表 |
+| `300750` | 宁德时代 | 新能源板块，新闻量大 |
+| `601318` | 中国平安 | 金融板块，波动相对稳定 |
+
 ## 贡献指南
 
 欢迎提交 Issue 和 Pull Request！请先阅读 [贡献指南](CONTRIBUTING.md)。
@@ -129,4 +138,4 @@ print(result["analysis"])        # 详细分析报告
 ## 致谢
 
 - 原项目：[hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN)
-- 上游项目：[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)
+- 上游项目：[TauricResea
