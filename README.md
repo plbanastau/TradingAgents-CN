@@ -120,6 +120,7 @@ print(result["analysis"])        # 详细分析报告
 | `000858` | 五粮液 | 消费板块代表 |
 | `300750` | 宁德时代 | 新能源板块，新闻量大 |
 | `601318` | 中国平安 | 金融板块，波动相对稳定 |
+| `002594` | 比亚迪 | 新能源汽车，热点多，适合测试新闻情感分析 |
 
 ## 贡献指南
 
@@ -129,13 +130,4 @@ print(result["analysis"])        # 详细分析报告
 
 - 🐛 Bug 报告：[GitHub Issues](../../issues/new?template=bug_report.md)
 - 💡 功能建议：[GitHub Issues](../../issues/new?template=feature_request.md)
-- 📖 文档问题：[GitHub Issues](../../issues/new?template=documentation.md)
-
-## 许可证
-
-本项目基于 [MIT License](LICENSE) 开源。
-
-## 致谢
-
-- 原项目：[hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN)
-- 上游项目：[TauricResea
+- 📖 文档问题：[GitHub Issues](../../issues/new)
