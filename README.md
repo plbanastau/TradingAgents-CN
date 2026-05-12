@@ -121,6 +121,7 @@ print(result["analysis"])        # 详细分析报告
 | `300750` | 宁德时代 | 新能源板块，新闻量大 |
 | `601318` | 中国平安 | 金融板块，波动相对稳定 |
 | `002594` | 比亚迪 | 新能源汽车，热点多，适合测试新闻情感分析 |
+| `600519` | 贵州茅台 | 权重股，流动性好，适合验证技术指标分析 |
 
 ## 贡献指南
 
@@ -129,5 +130,4 @@ print(result["analysis"])        # 详细分析报告
 ## 问题反馈
 
 - 🐛 Bug 报告：[GitHub Issues](../../issues/new?template=bug_report.md)
-- 💡 功能建议：[GitHub Issues](../../issues/new?template=feature_request.md)
-- 📖 文档问题：[GitHub Issues](../../issues/new)
+- 💡 功能建议：[GitHub Issues](../../issues/new?template=featu
