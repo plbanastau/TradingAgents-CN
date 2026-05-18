@@ -1,24 +1,19 @@
-#!/usr/bin/env python3
+"""TradingAgents-CN: A multi-agent trading framework for Chinese markets.
+
+This package provides AI-powered trading agents that analyze financial data,
+news, and market signals to support investment decision-making for A-shares
+and other Chinese financial instruments.
 """
-TradingAgents-CN 核心模块
 
-这是一个基于多智能体的股票分析系统，支持A股、港股和美股的综合分析。
-"""
+__version__ = "0.1.0"
+__author__ = "TradingAgents-CN Contributors"
+__license__ = "MIT"
 
-__version__ = "1.0.0-preview"
-__author__ = "TradingAgents-CN Team"
-__description__ = "Multi-agent stock analysis system for Chinese markets"
-
-# 导入核心模块
-try:
-    from .config import config_manager
-    from .utils import logging_manager
-except ImportError:
-    # 如果导入失败，不影响模块的基本功能
-    pass
+from tradingagents.graph.trading_graph import TradingAgentsGraph
+from tradingagents.default_config import DEFAULT_CONFIG
 
 __all__ = [
+    "TradingAgentsGraph",
+    "DEFAULT_CONFIG",
     "__version__",
-    "__author__", 
-    "__description__"
 ]
